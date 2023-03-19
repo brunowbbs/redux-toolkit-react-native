@@ -7,7 +7,7 @@ const store = configureStore({
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
-      serializableCheck: false, //TODO - brunowbbs: Verificar serializacao
+      serializableCheck: false, //TODO - brunowbbs: Check serialization
     }),
 });
 
